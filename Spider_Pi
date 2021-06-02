@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Spider_Pi
+Comment=Spider_Pi Program
+Encoding=UTF-8
+Exec=/home/pi/Qt/build-spider-unknown-Debug/spider_Pi
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+Icon=/home/pi/Qt/spider_pi/spider.ico

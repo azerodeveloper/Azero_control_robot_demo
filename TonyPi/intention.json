@@ -1,0 +1,507 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": null,
+        "intents": [
+          {
+            "title": "跳舞",
+            "name": "dance",
+            "slots": [],
+            "samples": [
+              {
+                "slots": "[]",
+                "content": "请表演跳舞"
+              },
+              {
+                "slots": "[]",
+                "content": "表演舞蹈"
+              },
+              {
+                "slots": "[]",
+                "content": "表演跳舞"
+              },
+              {
+                "slots": "[]",
+                "content": "舞蹈"
+              },
+              {
+                "slots": "[]",
+                "content": "请表演舞蹈"
+              },
+              {
+                "slots": "[]",
+                "content": "跳舞"
+              },
+              {
+                "slots": "[]",
+                "content": "跳个舞"
+              }
+            ]
+          },
+          {
+            "title": "表演武术",
+            "name": "wushu",
+            "slots": [],
+            "samples": [
+              {
+                "slots": "[]",
+                "content": "开始表演传统武术"
+              },
+              {
+                "slots": "[]",
+                "content": "开始传统武术"
+              },
+              {
+                "slots": "[]",
+                "content": "开始表演武术"
+              },
+              {
+                "slots": "[]",
+                "content": "请表演传统武术"
+              },
+              {
+                "slots": "[]",
+                "content": "表演传统武术"
+              },
+              {
+                "slots": "[]",
+                "content": "传统武术"
+              },
+              {
+                "slots": "[]",
+                "content": "请开始武术表演"
+              },
+              {
+                "slots": "[]",
+                "content": "开始武术表演"
+              },
+              {
+                "slots": "[]",
+                "content": "请表演武术"
+              },
+              {
+                "slots": "[]",
+                "content": "武术表演"
+              },
+              {
+                "slots": "[]",
+                "content": "表演武术"
+              },
+              {
+                "slots": "[]",
+                "content": "武术"
+              }
+            ]
+          },
+          {
+            "title": "健身",
+            "name": "exercise",
+            "slots": [],
+            "samples": [
+              {
+                "slots": "[]",
+                "content": "请开始表演健身"
+              },
+              {
+                "slots": "[]",
+                "content": "请表演健身"
+              },
+              {
+                "slots": "[]",
+                "content": "表演健身"
+              },
+              {
+                "slots": "[]",
+                "content": "开始健身"
+              },
+              {
+                "slots": "[]",
+                "content": "健身"
+              }
+            ]
+          },
+          {
+            "title": "前进",
+            "name": "forward",
+            "slots": [
+              {
+                "name": "step",
+                "type": "step"
+              }
+            ],
+            "samples": [
+              {
+                "content": "往前别走"
+              },
+              {
+                "slots": "[]",
+                "content": "向前走"
+              },
+              {
+                "slots": "[]",
+                "content": "往前走"
+              },
+              {
+                "slots": "[]",
+                "content": "前进${step}步"
+              },
+              {
+                "slots": "[]",
+                "content": "向前走${step}步"
+              },
+              {
+                "slots": "[]",
+                "content": "往前走${step}步"
+              }
+            ]
+          },
+          {
+            "title": "后退",
+            "name": "backward",
+            "slots": [
+              {
+                "name": "step",
+                "type": "step"
+              }
+            ],
+            "samples": [
+              {
+                "content": "向后走"
+              },
+              {
+                "slots": "[]",
+                "content": "往后走"
+              },
+              {
+                "slots": "[]",
+                "content": "往后退${step}步"
+              },
+              {
+                "slots": "[]",
+                "content": "向后退${step}步"
+              },
+              {
+                "slots": "[]",
+                "content": "向后走${step}步"
+              },
+              {
+                "slots": "[]",
+                "content": "后退${step}步"
+              },
+              {
+                "slots": "[]",
+                "content": "往后走${step}步"
+              }
+            ]
+          },
+          {
+            "title": "恢复原位",
+            "name": "stop",
+            "slots": [],
+            "samples": [
+              {
+                "slots": "[]",
+                "content": "恢复原位"
+              },
+              {
+                "slots": "[]",
+                "content": "别动了"
+              }
+            ]
+          },
+          {
+            "title": "向左转",
+            "name": "trun_left",
+            "slots": [],
+            "samples": [
+              {
+                "slots": "[]",
+                "content": "向左看"
+              },
+              {
+                "slots": "[]",
+                "content": "左转"
+              },
+              {
+                "slots": "[]",
+                "content": "向左转"
+              }
+            ]
+          },
+          {
+            "title": "向右转",
+            "name": "trun_right",
+            "slots": [],
+            "samples": [
+              {
+                "slots": "[]",
+                "content": "向右看"
+              },
+              {
+                "slots": "[]",
+                "content": "右转"
+              },
+              {
+                "slots": "[]",
+                "content": "向右转"
+              }
+            ]
+          },
+          {
+            "title": "领导再见",
+            "name": "seeyou",
+            "slots": [
+              {
+                "name": "leader",
+                "type": "leader"
+              }
+            ],
+            "samples": [
+              {
+                "content": "跟${leader}说BYE BYE"
+              },
+              {
+                "slots": "[]",
+                "content": "BYE BYE"
+              },
+              {
+                "slots": "[]",
+                "content": "跟${leader}说BYEBYE"
+              },
+              {
+                "slots": "[]",
+                "content": "BYEBYE"
+              },
+              {
+                "slots": "[]",
+                "content": "BYE"
+              },
+              {
+                "slots": "[]",
+                "content": "跟${leader}说拜拜"
+              },
+              {
+                "slots": "[]",
+                "content": "跟${leader}说再见"
+              },
+              {
+                "slots": "[]",
+                "content": "说拜拜"
+              },
+              {
+                "slots": "[]",
+                "content": "说再见"
+              },
+              {
+                "slots": "[]",
+                "content": "${leader}要走了"
+              },
+              {
+                "slots": "[]",
+                "content": "${leader}再见"
+              },
+              {
+                "slots": "[]",
+                "content": "欢送${leader}"
+              },
+              {
+                "slots": "[]",
+                "content": "goodbye"
+              },
+              {
+                "slots": "[]",
+                "content": "拜拜"
+              },
+              {
+                "slots": "[]",
+                "content": "再见"
+              },
+              {
+                "slots": "[]",
+                "content": "欢送"
+              },
+              {
+                "slots": "[]",
+                "content": "再会"
+              },
+              {
+                "slots": "[]",
+                "content": "演示结束"
+              },
+              {
+                "slots": "[]",
+                "content": "领导再见"
+              }
+            ]
+          },
+          {
+            "title": "欢迎领导",
+            "name": "welcome",
+            "slots": [
+              {
+                "name": "leader",
+                "type": "leader"
+              }
+            ],
+            "samples": [
+              {
+                "content": "跟${leader}说您好"
+              },
+              {
+                "slots": "[]",
+                "content": "跟${leader}说你好"
+              },
+              {
+                "slots": "[]",
+                "content": "跟${leader}打个招呼"
+              },
+              {
+                "slots": "[]",
+                "content": "${leader}来了"
+              },
+              {
+                "slots": "[]",
+                "content": "${leader}到了"
+              },
+              {
+                "slots": "[]",
+                "content": "欢迎${leader}"
+              },
+              {
+                "slots": "[]",
+                "content": "打个招呼"
+              },
+              {
+                "slots": "[]",
+                "content": "下午好"
+              },
+              {
+                "slots": "[]",
+                "content": "中午好"
+              },
+              {
+                "slots": "[]",
+                "content": "上午好"
+              },
+              {
+                "slots": "[]",
+                "content": "早上好"
+              },
+              {
+                "slots": "[]",
+                "content": "您好"
+              },
+              {
+                "slots": "[]",
+                "content": "你好"
+              },
+              {
+                "slots": "[]",
+                "content": "打招呼"
+              },
+              {
+                "slots": "[]",
+                "content": "欢迎领导"
+              }
+            ]
+          },
+          {
+            "title": "播放进度调节",
+            "name": "AZERO.PlayProgressIntent",
+            "samples": []
+          },
+          {
+            "title": "停止播放",
+            "name": "AZERO.StopIntent",
+            "samples": []
+          }
+        ],
+        "dictionaries": [
+          {
+            "title": "领导",
+            "name": "leader",
+            "values": [
+              {
+                "value": "客人",
+                "synonyms": []
+              },
+              {
+                "value": "领导",
+                "synonyms": []
+              }
+            ],
+            "valueSupplier": null
+          },
+          {
+            "title": "步数",
+            "name": "step",
+            "values": [
+              {
+                "value": "0",
+                "synonyms": [
+                  "零"
+                ]
+              },
+              {
+                "value": "1",
+                "synonyms": [
+                  "一"
+                ]
+              },
+              {
+                "value": "2",
+                "synonyms": [
+                  "二",
+                  "两"
+                ]
+              },
+              {
+                "value": "3",
+                "synonyms": [
+                  "三",
+                  "几"
+                ]
+              },
+              {
+                "value": "4",
+                "synonyms": [
+                  "四"
+                ]
+              },
+              {
+                "value": "5",
+                "synonyms": [
+                  "五"
+                ]
+              },
+              {
+                "value": "6",
+                "synonyms": [
+                  "六"
+                ]
+              },
+              {
+                "value": "7",
+                "synonyms": [
+                  "七"
+                ]
+              },
+              {
+                "value": "8",
+                "synonyms": [
+                  "八"
+                ]
+              },
+              {
+                "value": "9",
+                "synonyms": [
+                  "九"
+                ]
+              }
+            ],
+            "valueSupplier": null
+          }
+        ]
+      }
+    }
+  }

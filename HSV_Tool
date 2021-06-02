@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=LAB_Tool
+Comment=LAB_Tool Program
+Encoding=UTF-8
+Exec=python3 /home/pi/lab_adjust/main.py
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+Icon=/home/pi/lab_adjust/hsv.ico

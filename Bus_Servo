@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Bus_Servo
+Comment=Bus_Servo Program
+Encoding=UTF-8
+Exec=python3 /home/pi/Bus_Servo/main.py
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+Icon=/home/pi/Bus_Servo/Bus_Servo.ico

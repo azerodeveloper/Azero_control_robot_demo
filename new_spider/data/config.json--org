@@ -1,0 +1,94 @@
+{
+    "deviceInfo": {
+        "clientId": "5dada2f972857b00076b3d24",
+        "deviceSerialNumber": "B0:CE:18:F4:FD:3A",
+        "productId": "sai_minipodplus"
+    },
+    "aace.opendenoise": {
+            "VAD": {
+                   "localVAD": false
+                }
+    },
+"aace.alexa": {
+   "system": {
+       "firmwareVersion": 20200713,
+       "volume": 178,
+       "wifi_ssid": "Soundai-TEST-2.4G",
+       "bluetooth_active": true,
+       "mac": "B0:CE:18:F4:FD:3A",
+       "ip": "172.16.19.12"
+   }
+},
+"aace.cbl": {
+"cbl_endpoint": "https://api-azero.soundai.cn/v1/auth/access",
+    "def_endpoint": "https://azero.soundai.cn"
+},
+     "aace.alexa": {
+        "speechRecognizer": {
+            "encoder": {
+                "name": "opus"
+            }
+        }
+    },
+    "libcurlUtils": {
+        "CURLOPT_CAPATH": "/etc/ssl/certs"
+    },
+    "miscDatabase": {
+        "databaseFilePath": "/sz_azero/db/miscDatabase.db"
+    },
+    "certifiedSender": {
+        "databaseFilePath": "/sz_azero/db/certifiedSender.db"
+    },
+    "alertsCapabilityAgent": {
+        "databaseFilePath": "/sz_azero/db/alertsCapabilityAgent.db"
+    },
+    "notifications": {
+        "databaseFilePath": "/sz_azero/db/notifications.db"
+    },
+    "settings": {
+        "databaseFilePath": "/sz_azero/db/settings.db",
+        "defaultAVSClientSettings": {
+            "locale": "en-US"
+        }
+    },
+    "aace.storage": {
+        "localStoragePath": "/sz_azero/db/sample-aace.db",
+        "storageType": "sqlite"
+    },
+    "aace.vehicle": {
+        "info": {
+            "make": "Amazon",
+            "model": "AACE",
+            "year": "2019",
+            "trim": "aac",
+            "geography": "US",
+            "version": "1.2.3",
+            "os": "Sample OS 1.0",
+            "arch": "Sample Arch 1.0",
+            "language": "en-US",
+            "microphone": "SingleArray",
+            "countries": "US,GB,IE,CA,DE,AT,IN,JP,AU,NZ,FR",
+            "vehicleIdentifier": "Sample Identifier ABC"
+        },
+        "operatingCountry": "US"
+    },
+	"aace.logger":{
+        "sinks": [{
+           "id": "azero",
+           "type": "aace.logger.sink.file",
+           "config": {
+             "path": "/data/",
+             "prefix": "azero",
+             "maxSize": 542880,
+             "maxFiles": 1,
+             "append": true
+           }}],
+           "rules": [{
+                "sink":"azero",
+                "rule":{
+					"level":"INFO"
+				}
+           }]
+
+    }
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sai_client
+Comment=My client
+Exec=/home/pi/sai_client.sh
+Terminal=true
+MultipleArgs=false
+Type=Application
+Categories=Application;Development;
+StartupNotify=true
+X-KeepTerminal=true

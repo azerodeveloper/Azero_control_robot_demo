@@ -1,0 +1,49 @@
+﻿TonyPi动作组文件命名		
+0	立正	
+1	前进	
+2	后退	
+3	左转	
+4	右转	
+7	俯卧撑	
+8	仰卧起坐	
+9	挥手	
+10	鞠躬	
+11	左侧滑	左小迈步
+12	右侧滑	右小迈步
+14	下蹲	
+15	开怀大笑	
+30	右弓步	
+31	左弓步	
+32	右勾拳	
+33	左勾拳	
+34	左右直拳	
+35	下蹲拳	
+36	咏春拳	
+37	捶胸	
+50	左侧踢	
+51	右侧踢	
+52	左脚射门	
+53	右脚射门	
+60	拍照
+101	前跌倒起立	
+102	后跌倒起立	
+go	前进	
+go_fast	快速前进	
+hand5	左右摇摆	
+left	左侧滑	
+left_move	左小迈步	
+left_move_one_step	左迈一步		
+pick	抱住	
+pickTostand	松手	
+right	右侧滑	
+right_move	右小迈步	
+right_move_one_step	右迈一步	
+shot_left	左脚射门	
+shot_right	右脚射门	
+stand	站立	
+stand_	半蹲
+stand_gtolr	向左转	
+stand_lrtog	站立	
+stand_slow	站立(缓慢)	
+stoop	向前俯身	
+	
