@@ -16,6 +16,7 @@
 * [具体应用时的建议](#9)
 * [语音控制](#10)
 * [具体展示](#11)
+
 ----------<a id="1"> </a>
 ### 第一步：项目原理及Azero平台介绍（详细信息请见[白皮书](https://cms-azero.soundai.cn:8443/v1/cmsservice/resource/052416852598542c4e4291a885ac2152.pdf?showname=SoundAI_Azero%E7%99%BD%E7%9A%AE%E4%B9%A6v1.0)）
 
